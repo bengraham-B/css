@@ -1,0 +1,106 @@
+#button1 {
+  border-radius: 5px;
+  background: #2f2d2d;
+  color: white;
+  outline: none;
+  border: none;
+}
+
+#button1:hover {
+  background-image: -webkit-gradient(linear, left bottom, right top, from(#00bbff), to(#51ff00));
+  background-image: linear-gradient(to top right, #00bbff, #51ff00);
+  -webkit-transition: ease 0.35s;
+  transition: ease 0.35s;
+}
+
+#button2 {
+  border-radius: 5px;
+  background: #2f2d2d;
+  color: white;
+  outline: none;
+  border: none;
+}
+
+#button2:hover {
+  background-image: -webkit-gradient(linear, left bottom, right top, from(red), to(yellow));
+  background-image: linear-gradient(to top right, red, yellow);
+  -webkit-transition: ease 0.35s;
+  transition: ease 0.35s;
+}
+
+#button3 {
+  border-radius: 5px;
+  background: #2f2d2d;
+  color: white;
+  outline: none;
+  border: none;
+}
+
+#button3:hover {
+  background-image: -webkit-gradient(linear, left bottom, right top, from(#7b00ff), to(#00ff77));
+  background-image: linear-gradient(to top right, #7b00ff, #00ff77);
+  -webkit-transition: ease 0.35s;
+  transition: ease 0.35s;
+}
+
+#background {
+  width: 100%;
+  height: 92.5vh;
+  background: green;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#background #bloc {
+  width: 45%;
+  height: 100%;
+  background: yellow;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#background #bloc #button-div h1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#background #bloc #button-div .btn {
+  margin: 20px;
+  display: block;
+  height: 50px;
+  width: 150px;
+}
+
+#header {
+  width: 100%;
+  height: 7.5vh;
+  background: red;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+/*# sourceMappingURL=style.css.map */
